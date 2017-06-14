@@ -150,7 +150,7 @@
 	.content .pic{float: right; width: 100px;padding-left: 20px;min-height: 100px;}
 	.content img{width: 100px;}
 	.hotNews{background-color: #fff;}
-	.scroll_wrap{ position: absolute;top: 9.5vh;bottom: 8.8vh; width: 100vw; background-image: url(../../assets/images/loading_green.gif);background-repeat: no-repeat;background-position: center 99.78%;background-size: 20px;}
+	.scroll_wrap{ position: absolute;top: 9.5vh;bottom: 8.8vh; width: 100vw; background-image: url(/static/img/loading_green.c0f9be0.gif);background-repeat: no-repeat;background-position: center 99.78%;background-size: 20px;}
 	.scroller{ position: absolute;top: 0; width: 100vw;background-color: #fff;}
 	
 </style>
