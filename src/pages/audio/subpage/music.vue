@@ -30,11 +30,12 @@ export default {
     },
     methods: {
         run: function (e) {
-            this.axios.get('/api/film').then((res) => {
+            /*this.axios.get('/api/film').then((res) => {
                 var resoult = res.data.data.commend_feeds
                 this.arr = resoult.slice(0,10);  
-               
-            });
+            });*/
+            var resoult = require("../../../data/film.json").commend_feeds;
+            this.arr = resoult.slice(0,10); 
         },
         fn: function (e) {
             this.num++

@@ -29,11 +29,13 @@ export default {
 	components: {coverItem,  coverWrap },
     methods: {
         run: function (e) {
-            this.axios.get('/api/film').then((res) => {
+            /*this.axios.get('/api/film').then((res) => {
                 var resoult = res.data.data.commend_feeds
                 this.arr = resoult.slice(0,10);  
                 //console.log(this.arr)
-            });
+            });*/
+            var resoult = require("../../../data/film.json").commend_feeds;
+            this.arr = resoult.slice(0,10); 
         },
         fn: function (e) {
         	this.num++

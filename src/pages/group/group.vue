@@ -66,11 +66,11 @@
 
 <style scoped>
 	.page_group { background-color: #fff; padding-bottom:8vh }
-	.topper{padding: 0 20px; height: 23vh; background:url(https://github.com/chenyk2016/vue-local/tree/master/static/img/ic_group_banner.3baebcf.png) no-repeat center;background-size: 100vw;overflow: visible; }
+	.topper{padding: 0 20px; height: 23vh; background:url(../../assets/images/ic_group_banner.png) no-repeat center;background-size: 100vw;overflow: visible; }
 	.topper h4 { font-size: 16px;padding-top: 6vh; }
 	.sub_title { padding-top: 8px;color:#999;font-size: 14px; }
 	.tips {color: #999;padding-top: 7vh;text-align: left;font-size: 12px;}
-	.recommend { background: url(https://github.com/chenyk2016/vue-local/tree/master/static/img/ic_rec_group_banner_6.84c7876.png) no-repeat;background-size: cover; padding: 6vh 0 5px 10px;margin: 0 10px; text-align: left;font-size: 14px;color: #eee;font-weight: normal; }
+	.recommend { background: url(../../assets/images/ic_rec_group_banner_6.png) no-repeat;background-size: cover; padding: 6vh 0 5px 10px;margin: 0 10px; text-align: left;font-size: 14px;color: #eee;font-weight: normal; }
 	h5 { padding: 10px 0; position: relative;font-size: 16px;}
 	h5:after,
 	h5:before{ border-bottom: 1px solid #ccc;content: ""; height: 1px; position: absolute;left: 10px; top: 20px; width: 38vw;}
