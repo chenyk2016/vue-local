@@ -50,15 +50,12 @@
 		},
 		data: function(){
 			return {
-				searchToggle:false,
-				mes: [],
-				touch: {},
-				arr: [],
-				clickFlag: false,
-				moveFlag: false,
-				index: 5,
-				myScroll: {},
-				lastY: 0
+				searchToggle:false, //是否显示搜索
+				mes: [],	//需要渲染的信息
+				arr: [],	//从json数据获取
+				index: 5,	//渲染列表个数
+				myScroll: {}, //滚动插件
+				lastY: 0	//滚动的最终位置
 			}
 		},
 		methods: {
@@ -85,11 +82,12 @@
 				
 				scrollX: true, //是否允许横向滚动
 				scrollbars: true,
-				fadeScrollbars:true,
-				click: false //不阻止点击事件
-				//preventDefault: false
+				fadeScrollbars: false,
+				click: false, //不阻止点击事件
+				preventDefault: false //不阻止
 			});
-
+			
+			/*
 			function isPassive() {
 			    var supportsPassiveOption = false;
 			    try {
@@ -102,10 +100,11 @@
 			    return supportsPassiveOption;
 			};
 
-			/*document.addEventListener('touchmove', function (e) { e.preventDefault(); }, isPassive() ? {
+			document.addEventListener('touchmove', function (e) { e.preventDefault(); }, isPassive() ? {
 				capture: false,
 				passive: false
-			} : false);*/
+			} : false);
+			*/
 
 			//加载更多
 			//1.当滚动开始时，元素位于最底部
