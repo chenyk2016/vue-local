@@ -65,7 +65,7 @@
 </script>
 
 <style scoped>
-	.page_group { background-color: #fff; padding-bottom:8vh; height: 81vh; overflow-y: scroll; }
+	.page_group { background-color: #fff; padding-bottom:0vh; height: 73vh; overflow-y: scroll; }
 	.topper{padding: 0 20px; height: 23vh; background:url(../../assets/images/ic_group_banner.png) no-repeat center;background-size: 100vw;overflow: visible; }
 	.topper h4 { font-size: 16px;padding-top: 6vh; }
 	.sub_title { padding-top: 8px;color:#999;font-size: 14px; }

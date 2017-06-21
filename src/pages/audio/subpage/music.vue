@@ -1,5 +1,5 @@
 <template>
-    <div class="film">
+    <div class="music">
         <div class="interest">
             <cover-wrap cover-name="华语新碟榜">
                 <div class="scroll_wrap" @touchmove="fn">
@@ -49,6 +49,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.music{ height: 78vh; overflow: scroll; position: relative; }
 .scroll_wrap{width: 100%;overflow: scroll;}
 .scroll_inner { width: 307vw; }
 .scroll_inner:after { content: "";display: block;height: 0;clear: both; }

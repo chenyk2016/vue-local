@@ -1,5 +1,5 @@
 <template>
-    <div class="film">
+    <div class="television">
         <div class="hot">
             <cover-wrap cover-name="近期值得看的剧">
                 <div class="scroll_wrap" @touchmove="fn">
@@ -51,6 +51,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.television{ height: 78vh; overflow: scroll; position: relative; }
 .scroll_wrap{width: 100%;overflow: scroll;}
 .scroll_inner { width: 307vw; }
 .scroll_inner:after { content: "";display: block;height: 0;clear: both; }
