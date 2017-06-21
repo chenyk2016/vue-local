@@ -72,8 +72,8 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
-.scroll_wrap{width: 100%;overflow: scroll;}
+.film{ height: 78vh; overflow: scroll; position: relative; }
+.scroll_wrap{width: 100%;overflow: scroll; }
 .scroll_inner { width: 307vw; }
 .scroll_inner:after { content: "";display: block;height: 0;clear: both; }
 .item_wrap{float: left; padding-left: 4vw;padding-bottom: 20px;}

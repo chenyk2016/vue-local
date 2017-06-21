@@ -50,6 +50,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+    .book{ height: 78vh; overflow: scroll; position: relative; }
 	.book_item{padding-left: 4vw;padding-bottom: 20px;}
 
 	.wrap{width: 100%;overflow: scroll;}

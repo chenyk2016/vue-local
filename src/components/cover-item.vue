@@ -8,7 +8,7 @@
 }, 
 -->
 <template>
-	<div class="item" >
+	<div class="item" @click="fnclick">
 		<div class="pic"><img :src="imgSrc" alt=""></div>
 		<h4>{{ item.title }}</h4>
 		<div class="comment">
@@ -41,7 +41,6 @@ export default {
 	},
 	watch: {
 		status: function (e) {
-			
 			this.lazyLoad()
 		}
 	},
@@ -51,7 +50,10 @@ export default {
 			if (!this.hidden) {return}
 			var That=this
 			setTimeout(function () {
+
 				if (!That.$el.offsetParent) { return }
+				
+
 				var clientTop = -That.$el.offsetParent.scrollTop-document.documentElement.clientHeight + That.$el.offsetTop
 				// 元素出现在窗口中时，加载图片
 				if (clientTop <=0 ) {
@@ -59,7 +61,10 @@ export default {
 					// 显示图片后讲状态更改为false，避免重新重新执行
 					That.hidden = false;
 				}
-			},300);
+			},500);
+		},
+		fnclick: function () {
+			
 		}
 	},
 	// 预加载

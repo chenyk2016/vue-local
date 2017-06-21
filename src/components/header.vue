@@ -28,8 +28,8 @@ export default {
 	.search_right_icon{width: 20px;height: 20px;padding-top: 5px;padding-right: 5px; vertical-align:middle;float: right;}
 
 	h2{text-align: center;font-size: 16px;padding-top: 5px;}
-	.header_search{position: absolute;top:4.6vh;right: 50px;  width: 25px;height: 25px;}
-	.header_mine{position: absolute;top:4.6vh;right: 10px;  width: 25px;height: 25px;}
+	.header_search{position: absolute;top:4.6vh;right: 50px;  width: 7vw;height: 7vw;}
+	.header_mine{position: absolute;top:4.6vh;right: 10px;  width: 7vw;height: 7vw;}
 	.header_search img,
 	.header_mine img{width: 100%;height: 100%;background-color: transparent;}
 </style>

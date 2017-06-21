@@ -13,8 +13,6 @@
 
 		<div class="scroll_wrap">
 			<div class="scroller">
-
-				
 				<!-- 轮播图 -->
 				<swiper></swiper>
 				<div class="hotNews">
@@ -30,7 +28,6 @@
 					</div>
 				</div>
 				
-
 			</div>
 		</div>
 
@@ -84,7 +81,7 @@
 				scrollbars: true,
 				fadeScrollbars: false,
 				click: false, //不阻止点击事件
-				preventDefault: false //不阻止
+				preventDefault: true //不阻止
 			});
 			
 			/*
@@ -139,15 +136,16 @@
 <style scoped>
 	.home {border: 1px solid transparent; overflow: hidden; }
 	h3{padding-left: 10px;border-left:4px solid #FC8243;color: #FC8243;text-align: left;margin-top: 10px;}
-	
+	.search_right_icon{ width: 7vw; height: 7vw; }
+
 	.itemWrap{}
 	.content{padding: 10px 20px;border-bottom: 1px solid #ccc;text-align: left;}
 	.content:after{ clear: both;content: "";display: block; }
 	.content h4{font-size: 18px; line-height: 24px;}
 	.content p{padding: 8px 0;font-size: 13px;line-height: 20px;color: #aaa}
 	.content s{display: block; width: 20px;height: 1px;background-color: #ccc;margin: 5px 0;}
-	.content .pic{float: right; width: 100px;padding-left: 20px;min-height: 100px;}
-	.content img{width: 100px;}
+	.content .pic{float: right; width: 100px;padding-left: 20px;min-height: 100px; }
+	.content img{width: 100px;  max-height: 18vh;}
 	.hotNews{background-color: #fff;}
 	.scroll_wrap{ position: absolute;top: 9.5vh;bottom: 8.8vh; width: 100vw; background-image: url(../../assets/images/loading_green.gif);background-repeat: no-repeat;background-position: center bottom 10px;background-size: 20px;}
 	.scroller{ position: absolute;top: 0; width: 100vw;background-color: #fff;}

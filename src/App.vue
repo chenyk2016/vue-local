@@ -74,6 +74,7 @@ export default {
 }
 body{ 
   overflow-x:hidden;
+  overflow-y:hidden;
 }
 *{margin: 0;padding: 0;}
 li{list-style: none;}

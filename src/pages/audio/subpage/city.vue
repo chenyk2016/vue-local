@@ -1,5 +1,5 @@
 <template>
-    <div class="film">
+    <div class="city">
         <div class="hot">
             <cover-wrap cover-name="热门活动">
                 <div class="scroll_wrap" @touchmove="fn">
@@ -71,6 +71,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.city{ height: 78vh; overflow: scroll; position: relative; }
 .scroll_wrap{width: 100%;overflow: scroll;}
 .scroll_inner { width: 307vw; }
 .scroll_inner:after { content: "";display: block;height: 0;clear: both; }
