@@ -91,7 +91,7 @@
 </script>
 
 <style scoped>
-	.broadcast{background-color: #eee;border: 1px solid transparent}
+	.broadcast{background-color: #eee;border: 1px solid transparent ; height: 81vh; overflow-y: scroll;}
 
 	.publish_broadcast{ height: 40px;background-color: #fff; }
 	.text_wrap{ float: left;background:url(../../assets/images/avatar_male_70.png) no-repeat 20px center; background-size: 30px; }

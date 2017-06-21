@@ -51,6 +51,7 @@ export default {
 			if (!this.hidden) {return}
 			var That=this
 			setTimeout(function () {
+				if (!That.$el.offsetParent) { return }
 				var clientTop = -That.$el.offsetParent.scrollTop-document.documentElement.clientHeight + That.$el.offsetTop
 				// 元素出现在窗口中时，加载图片
 				if (clientTop <=0 ) {

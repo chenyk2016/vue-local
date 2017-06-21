@@ -1,6 +1,8 @@
 <template>
   <div id="app">
+
     <router-view></router-view>
+    
     <sidebar :pageNav="pageNav"></sidebar>
     <login></login>
   </div>
@@ -69,7 +71,6 @@ export default {
   margin-bottom: 64px;
   background-color: #eee;
   overflow: hidden;
-  
 }
 body{ 
   overflow-x:hidden;
