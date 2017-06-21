@@ -118,7 +118,7 @@
 </script>
 
 <style scoped>
-	.page_mine { }
+	.page_mine { height: 81vh; overflow: scroll; overflow-x: hidden; }
 	.mine_infor { padding: 20px 20px 10px 30vw;background: url(../../assets/images/bg_default_profile_banner_org.jpg);position: relative;text-align: left;color: #eee;}
 	.head_portrait { width: 20vw;height: 20vw;border-radius: 50%;position: absolute;top: 15px;left: 20px;background-color: #fff;border: 2px solid #fff;overflow: hidden; }
 	.head_portrait img { width: 20vw; }

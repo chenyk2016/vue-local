@@ -72,6 +72,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
 .scroll_wrap{width: 100%;overflow: scroll;}
 .scroll_inner { width: 307vw; }
 .scroll_inner:after { content: "";display: block;height: 0;clear: both; }
