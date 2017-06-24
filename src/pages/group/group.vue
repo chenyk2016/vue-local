@@ -78,7 +78,7 @@
 	.group_inner_wrap { padding: 10px 10px; }
 	
 	.enter_wrap{background-color: #fff;border-top: 1px solid #ccc;height: 50px;position: fixed;bottom: 60px;left: 0;width: 100vw;}
-	.enter {background-color: #ccc;border-radius: 5px;color: #eee;font-size: 14px;text-align: right;padding:5px 10px; position: absolute;right: 20px;top:5px;}
+	.enter {background-color: #ccc;border-radius: 5px;color: #eee;font-size: 14px;text-align: right;padding:5px 10px; position: absolute;right: 20px;top:8px;}
 	.active { background-color: green; }
 </style>
 

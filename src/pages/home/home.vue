@@ -3,14 +3,14 @@
 		<ComponentsHead  :addClass="true">
 			<div class="search" @click="searchToggle=false">
 				<input class="search_input" type="text" placeholder="影音 图书 唱片 小组等">
-				<img class="search_right_icon" src="../../assets/images/ic_scan_gray.png" alt="">
+				
+				<div class="search_camera"></div>
 			</div>
 			<img slot="header_mine" src="../../assets/images/ic_chat_white.png" alt="">
 		</ComponentsHead>
 
 		<search v-if="searchToggle"></search>
-		
-
+	
 		<div class="scroll_wrap">
 			<div class="scroller">
 				<!-- 轮播图 -->
@@ -136,7 +136,7 @@
 <style scoped>
 	.home {border: 1px solid transparent; overflow: hidden; }
 	h3{padding-left: 10px;border-left:4px solid #FC8243;color: #FC8243;text-align: left;margin-top: 10px;}
-	.search_right_icon{ width: 7vw; height: 7vw; }
+	.search_camera{ float: right; width: 3.8vh; height: 3.8vh; margin: 3px 5px 0 0 ; background: url(../../assets/images/ic_scan_gray.png) no-repeat center; background-size: cover;}
 
 	.itemWrap{}
 	.content{padding: 10px 20px;border-bottom: 1px solid #ccc;text-align: left;}
